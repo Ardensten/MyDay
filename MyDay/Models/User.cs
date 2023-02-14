@@ -10,8 +10,9 @@ namespace MyDay.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string UserName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<Routines> Routines { get; set; }
+        public List<Routine> Routines { get; set; }
     }
 }
