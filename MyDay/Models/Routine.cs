@@ -12,6 +12,6 @@ namespace MyDay.Models
         public string Name { get; set; }
         public TimeOnly TimeOfDay { get; set; }
         public DateOnly Date { get; set; }
-        public List<Activity> Activities { get; set; }
+        public List<Activity>? Activities { get; set; }
     }
 }
